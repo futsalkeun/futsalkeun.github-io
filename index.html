@@ -3,15 +3,12 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Apple iPhone demo (animations) - fullPage.js</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to" />
+	<title>Futsalkeun App</title>
 	<meta name="Resource-type" content="Document" />
 
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -21,8 +18,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -60,59 +56,61 @@
 <body>
 
 <div id="fullpage">
-	<div id="staticImg">
-		<div class="imgsContainer">
-			<img src="imgs/iphone-green.png" alt="iphone" id="iphone-green" />
-		</div>
-	</div>
+	<div class="section" id="section0">
+			<div class="title">
+				<span>Find your Partner, Find your Opponent and <br>Be the Best Futsal Player</span>
+			</div>
+			<div class="badge-img">
+		    	<a href="#">
+					<img width="200px"src="assets/img/gp.png"/>
+				</a>
 
-	<div class="section " id="section0">
-		<h1>Apple fullPage.js Demo</h1>
-		<img src="imgs/iphone1.jpg" alt="iphone" />
+				<a href="#">
+					<img width="200px"src="assets/img/applebadge.png"/>
+				</a>
+			</div>
 	</div>
-	<div class="section" id="section1">
+	<div class="section moveDown" id="section1">
 		<div class="wrap">
 			<div class="imgsContainer">
-				<img src="imgs/iphone2.png" alt="iphone" id="iphone2" />
-				<img src="imgs/iphone3.png" alt="iphone" id="iphone3" />
-				<img src="imgs/iphone4.png" alt="iphone" id="iphone4" />
+				<img src="assets/img/friendly-match.png" alt="friendlymatch" id="iphone2" />
 			</div>
 
 			<div class="box">
-				<h2>A powerful plugin</h2>
-				 <strong>fullPage.js</strong>  callbacks allow you to create amazing dynamic sites with a bit of imagination. This example tries to reproduce the Apple iPhone-5c website animations as an example of what fullPage.js is capable of.
+				<h2>Find Opponent</h2>
+				<p>
+				 Upgrade tim anda melalui uji tanding dengan fitur Friendly Match, sehingga anda mudah menemukan tim lawan untuk melakukan uji tanding
+				 </p>
 			</div>
 		</div>
 	</div>
 
-	<div class="section moveDown" id="section2">
+	<div class="section moveDown" id="section1">
 		<div class="wrap">
 			<div class="imgsContainer">
-				<img src="imgs/iphone-yellow.png" alt="iphone" id="iphone-yellow" />
-				<img src="imgs/iphone-red.png" alt="iphone" id="iphone-red" />
-				<img src="imgs/iphone-blue.png" alt="iphone" id="iphone-blue" />
+				<img src="assets/img/games.png" alt="friendlymatch" id="iphone3" />
 			</div>
 
 			<div class="box">
-				<h2>Amazing stuff</h2>
-				Combining <strong>fullPage.js</strong> with your own CSS styles and animations, you will be able to create something remarkable.
+				<h2>Find Partner</h2>
+				<p>
+				Fitur Game memudahkan anda untuk mencari rekan bermain futsal sesuai dengan lokasi ataupun waktu yang anda inginkan.</p>
 			</div>
 		</div>
 	</div>
-	<div class="section moveDown" id="section3">
+			<div class="section moveDown" id="section2">
 		<div class="wrap">
+			<div class="imgsContainer">
+				<img src="assets/img/profile2.png" alt="friendlymatch" id="iphone3" />
+			</div>
+
 			<div class="box">
-				<h2>Just a demo</h2>
-				This is, of course, just a demo. I didn't want to spend much time on it.
-				Don't expect it to work perfectly in all kind of screens.
-				It has been designed to work on 1180px width or over on modern browsers with CSS3.
+				<h2>Rating</h2>
+				<p>
+				Tunjukkan kemampuan terbaikmu dalam setiap permainan. Karena rating kemampuanmu akan terpetakkan di dalam aplikasi ini.</p>
 			</div>
 		</div>
-		<div class="imgsContainer">
-			<img src="imgs/iphone-two.png" alt="iphone" id="iphone-two" />
-		</div>
 	</div>
-</div>
 
 </body>
 </html>
